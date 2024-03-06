@@ -8,5 +8,11 @@ setup(
         'console_scripts': [
             'simple_site = simple_site:main'
         ]
-    }
+    },
+    package_data={
+        'simple_site': ['templates/template_backend.service']
+    },
+    install_requires=[
+        'setuptools'
+    ]
 )

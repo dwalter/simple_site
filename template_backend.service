@@ -1,0 +1,11 @@
+[Unit]
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/<service_name>/backend/
+ExecStart=python app.py
+
+[Install]
+WantedBy=multi-user.target
