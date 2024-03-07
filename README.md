@@ -5,10 +5,12 @@ Simple program that sets up an nginx server to run a html frontend and flask bac
 
 ### Installation
 ```
-sudo apt-get update
-sudo apt-get install nginx
+git clone git@github.com:dwalter/simple_site.git;
+cd simple_site;
+sudo apt-get update;
+sudo apt-get install nginx;
 sudo apt install curl;
-./install.sh
+./install.sh;
 ```
 
 ### Requirements
